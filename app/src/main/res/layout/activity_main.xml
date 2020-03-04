@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.splash.FullScreenVideoView
+        android:id="@+id/videoViewSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.splash.FullScreenVideoView>
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_textviewtimer"
+        android:text=""
+        android:textSize="15dp"/>
+
+
+</FrameLayout>
